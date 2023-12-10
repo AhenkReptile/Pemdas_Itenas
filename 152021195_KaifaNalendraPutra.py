@@ -16,6 +16,7 @@ for index, row in df.iterrows():
 print("DataFrame Setelah Peningkatan Gaji Tambahan: ")
 print(df)
 
+
 print("\nRingkasan Perubahan:")
 for index, row in df.iterrows():
     print(f"{row['Nama']} - Sebelum: {row['Gaji']/1.05:.2f}, Setelah: {row['Gaji']:.2f}, Peningkatan: {row['Gaji']/1.05 - row['Gaji']:.2f}")
